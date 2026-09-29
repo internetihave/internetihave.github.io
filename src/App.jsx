@@ -6,37 +6,33 @@ const PRODUCTS = [
   {
     id: 1,
     name: 'Silk Rose Two-Piece Set',
-    price: 45.0,
+    price: 1900,
     tag: 'Bestseller',
-    image:
-      'https://images.unsplash.com/photo-1584273143981-41c073dfe8f8?auto=format&fit=crop&w=600&q=80',
+    image: 'https://i.ibb.co/FqL1Vx5c/photo-2026-09-29-23-38-50.jpg',
     sizes: ['S', 'M', 'L', 'XL'],
   },
   {
     id: 2,
     name: 'Cozy Flannel Cream Pajamas',
-    price: 52.0,
+    price: 2000,
     tag: 'Winter Warm',
-    image:
-      'https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=600&q=80',
+    image: 'https://i.ibb.co/b5v2JzcX/photo-2026-09-29-23-39-52.jpg',
     sizes: ['S', 'M', 'L'],
   },
   {
     id: 3,
     name: 'Satin Nightgown & Robe',
-    price: 68.0,
+    price: 1800,
     tag: 'Luxury',
-    image:
-      'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=600&q=80',
+    image: 'https://i.ibb.co/zHFzP7Tf/photo-2026-09-29-23-39-36.jpg',
     sizes: ['M', 'L', 'XL'],
   },
   {
     id: 4,
     name: 'Cotton Lounge Sleepshirt',
-    price: 38.0,
+    price: 1500,
     tag: 'Soft Cotton',
-    image:
-      'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80',
+    image: 'https://i.ibb.co/DHmFQfXT/photo-2026-09-29-23-39-02.jpg',
     sizes: ['S', 'M', 'L', 'XL'],
   },
 ];
@@ -178,7 +174,7 @@ export default function App() {
                 <div className="product-info">
                   <h3 className="product-title">{product.name}</h3>
                   <div className="product-price">
-                    ${product.price.toFixed(2)}
+                    {product.price.toFixed(2)}DZ
                   </div>
 
                   <div className="size-selector">
