@@ -267,7 +267,7 @@ export default function App() {
           <div className="cart-footer">
             <div className="cart-subtotal">
               <span>Subtotal:</span>
-              <span>${subtotal.toFixed(2)}</span>
+              <span>{subtotal.toFixed(2)}DZ</span>
             </div>
             <button
               className="checkout-btn"
