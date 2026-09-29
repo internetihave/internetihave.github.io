@@ -43,6 +43,12 @@ body {
   background-color: var(--bg-secondary);
   width: 100%;
 }
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
